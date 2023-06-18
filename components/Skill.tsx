@@ -6,13 +6,13 @@ type Props = {
 
 const Skill = ({ directionLeft }: Props) => {
   return (
-    <div className="group relative flex cursor-pointer">
+    <div className="group relative flex cursor-pointer ">
       <motion.img
         initial={{
           x: directionLeft ? -200 : 200,
           opacity: 0,
         }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
         whileInView={{ opacity: 1, x: 0 }}
         src="https://cdn.mos.cms.futurecdn.net/baYs9AuHxx9QXeYBiMvSLU.jpg"
         className="rounded-full border border-gray-500 object-cover w-24
