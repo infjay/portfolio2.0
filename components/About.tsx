@@ -27,7 +27,7 @@ const About = (props: Props) => {
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
-          <span className="underline decoration-[#F7AB0A]">little</span> {""} BG
+          <span className="underline decoration-[#F7AB0A]">little</span> {""} Background
         </h4>
         <p className="text-base">
           Hi there, I'm a web developer &. I specialize in developing beautiful
@@ -35,8 +35,8 @@ const About = (props: Props) => {
           expertise includes JS/TS/React/Node.js/Express.js, and I am passionate
           about staying up-to-date with the latest trends and best practices in
           the industry. I am always seeking to learn new skills and tackle new
-          challenges. Here you can check some of my recent projects :
-          https://infjay.github.io/portfolio I am a team player and love
+          challenges.
+          I am a team player and love
           collaborating with other professionals to achieve the best possible
           results. I am also a problem solver and enjoy working on complex
           projects that require innovative solutions. If you're interested in
