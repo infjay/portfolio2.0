@@ -20,11 +20,11 @@ const BgCircles = (props: Props) => {
         duration:2.5
     }}
     className='relative flex justify-center items-center'>
-        <div className='absolute border border-[#fd1212d4] rounded-full h-[200px] w-[200px] mt-52 animate-ping'/>
-        <div className='absolute border border-gray-500 rounded-full h-[300px] w-[300px] mt-52 animate-pulse'/>
-        <div className='absolute border border-gray-600 rounded-full h-[500px] w-[500px] mt-52 animate-pulse'/>
-        <div className='absolute border border-gray-800 opacity-20 rounded-full h-[650px] w-[650px] mt-52 animate-pulse'/>
-        <div className='absolute border border-gray-900 rounded-full h-[800px] w-[800px] mt-52 animate-pulse '/>
+        <div className='absolute border border-[#ffffffd4] rounded-full max-sm:h-[100px] max-sm:w-[100px] h-[150px] w-[150px] mt-52 animate-ping'/>
+        <div className='absolute border border-[#ff61ff] rounded-full max-sm:h-[180px] max-sm:w-[180px] h-[300px] w-[300px] mt-52 animate-pulse'/>
+        <div className='absolute border border-[#ffff5d] rounded-full max-sm:h-[260px] max-sm:w-[260px] h-[500px] w-[500px] mt-52 animate-pulse'/>
+        <div className='absolute border border-[#00fb86d4] opacity-20 rounded-full max-sm:h-[330px] max-sm:w-[330px] h-[650px] w-[650px] mt-52 animate-pulse'/>
+        <div className='absolute border border-[#12fdf5d4] rounded-full max-sm:h-[420px] max-sm:w-[420px] h-[800px] w-[800px] mt-52 animate-pulse '/>
     </motion.div>
   )
 }
