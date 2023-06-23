@@ -8,6 +8,7 @@ import Experience from "../../components/Experience";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
 import Contact from "../../components/Contact";
+import Link from "next/link";
 
 
 const Home: NextPage = () => {
@@ -27,9 +28,9 @@ const Home: NextPage = () => {
         <About />
       </section>
       {/* Experience */}
-      <section className="snap-center" id="experience">
+      {/* <section className="snap-center" id="experience">
         <Experience />
-      </section>
+      </section> */}
       {/* Skills */}
       <section id="skills" className="snap-start"> 
         <Skills />
@@ -42,6 +43,14 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-center">
         <Contact />
       </section>
+
+      <Link href="#hero">
+      <footer className="sticky bottom-5 w-full cursor-pointer">
+        <div className="flex justify-center items-center">
+          <img src="https://i.seadn.io/gcs/files/ab8500681ef3049af50ffafcc4954b2b.png?auto=format&dpr=1&w=1920" className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0"/>
+        </div>
+      </footer>
+      </Link>
 
     </div>
   )
