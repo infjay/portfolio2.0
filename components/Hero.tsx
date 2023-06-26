@@ -23,7 +23,7 @@ function Hero({}: Props) {
       <img
         src='https://i.seadn.io/gcs/files/ab8500681ef3049af50ffafcc4954b2b.png?auto=format&dpr=1&w=1920'
         alt="thug"
-        className='relative rounded-full h-32 w-32 mx-auto object-cover'
+        className='relative rounded-full h-36 w-32 mx-auto object-cover'
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 max-sm:text-[10px] tracking-[15px]'>Software Engineer</h2>

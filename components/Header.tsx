@@ -23,22 +23,16 @@ export default function Header({}: Props) {
         }}
         className='flex flex-row items-center'> 
             {/* Social Icons */}
-            <SocialIcon url='https://www.youtube.com'
+            <SocialIcon url='https://www.github.com/infjay'
             fgColor='gray' 
             bgColor='transparent' 
             />
-            <SocialIcon url='https://www.twitter.com'
+            <SocialIcon url='https://www.linkedin.com/in/djawid-nezami/'
             fgColor='gray' 
             bgColor='transparent' 
             />
-            <SocialIcon url='https://www.instagram.com'
-            fgColor='gray' 
-            bgColor='transparent' 
-            />
-            <SocialIcon url='https://www.google.com'
-            fgColor='gray' 
-            bgColor='transparent' 
-            />
+  
+  
         </motion.div>
         <motion.div
            initial={{
@@ -56,6 +50,7 @@ export default function Header({}: Props) {
         }}
         className='flex flex-row items-center text-gray-300 cursor-pointer'>
         <SocialIcon
+            url='mailto:jawid.nm@gmail.com'
             className='cursor-pointer'
             network='email'
             fgColor='gray' 
