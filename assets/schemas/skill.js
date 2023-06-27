@@ -1,4 +1,4 @@
-export default post = {
+export default {
   name: "skill",
   title: "Skill",
   type: "document",

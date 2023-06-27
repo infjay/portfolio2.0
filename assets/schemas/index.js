@@ -6,6 +6,6 @@ import skill from './skill'
 import social from './social'
 import project from './project'
 
-export const schema = {
+export const schemaTypes = {
   types: [pageInfo, skill,social,project,experience],
 }

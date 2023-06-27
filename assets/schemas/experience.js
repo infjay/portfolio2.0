@@ -1,4 +1,4 @@
-export default post = {
+export default {
   name: 'paginfo',
   title: 'PageInfo',
   type: 'document',

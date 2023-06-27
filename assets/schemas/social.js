@@ -1,4 +1,4 @@
-export default post = {
+export default {
   name: "social",
   title: "Social",
   type: "document",
