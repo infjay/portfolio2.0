@@ -11,7 +11,7 @@ import git from "./git.png";
 import github from "./github.png";
 import linux from "./linux.png";
 import material from "./material.png";
-import next from "./next.png";
+import next from "./nekst.png";
 import nginx from "./nginx.png";
 import node from "./node.png";
 import tailwind from "./tailwind.png";
