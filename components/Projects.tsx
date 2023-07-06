@@ -2,9 +2,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import mock1 from "../assets/1.png";
-import mock2 from "../assets/3.png";
-import mock3 from "../assets/4.png";
-import mock4 from "../assets/5.png";
+import mock2 from "../assets/2.png";
+import mock3 from "../assets/3.png";
+import mock4 from "../assets/4.png";
+import mock5 from "../assets/5.png";
 
 type Props = {};
 
@@ -12,6 +13,14 @@ const Projects = (props: Props) => {
   const projects = [
     {
       id: 1,
+      name: "Back to Balance Festival",
+      summary:
+        "The Back to Balance Festival website serves as a compelling gateway to a transformative soul experience. Through its user-focused design, engaging content, seamless ticketing, community engagement, and accessibility, it empowers individuals to prioritize their well-being and embark on a journey of holistic self-discovery.",
+      image: mock2,
+      url: "https://www.backtobalance-festival.com/",
+    },
+    {
+      id: 2,
       name: "MoriElement",
       summary:
         "Morielement.com has successfully positioned Mori as a talented artist, showcasing their unique style and creative abilities. The visually captivating design and intuitive user experience captivate visitors and leave a lasting impression. The website has garnered positive feedback from visitors, potential clients, and collaborators, leading to opportunities for commissioned work, collaborations, and recognition within the creative community.",
@@ -25,7 +34,7 @@ const Projects = (props: Props) => {
       url: "https://www.morielement.com",
     },
     {
-      id: 2,
+      id: 3,
       name: "Sumex",
       summary:
         "Sumex is an AI-powered article summarizer that aims to revolutionize the way we consume and process information. With its advanced natural language processing algorithms, Sumex can analyze and condense lengthy articles into concise and coherent summaries, saving users valuable time and effort.",
@@ -33,7 +42,7 @@ const Projects = (props: Props) => {
       url: "https://infjay.github.io/Sumex/",
     },
     {
-      id: 3,
+      id: 4,
       name: "GPT-3",
       summary:
         "The GPT-3 project is a frontend design showcase that highlights the skills and creativity in designing and implementing user interfaces.The project's emphasis is on presenting visually appealing and user-friendly interfaces. It demonstrates the developer's proficiency in frontend technologies, such as HTML, CSS, JavaScript and React.js for enhanced functionality and styling.",
@@ -41,7 +50,7 @@ const Projects = (props: Props) => {
       url: "https://infjay.github.io/gp3-AI/",
     },
     {
-      id: 4,
+      id: 5,
       name: "Hospify",
       summary: `The Hospify project has successfully addressed the apointment and patient management challenges faced by healthcare professionals by delivering a secure and compliant patient management platform.
             Through its user-friendly interface, robust security measures, and seamless integration with existing systems, Hospify has improved healthcare patient management, enabling healthcare professionals to collaborate effectively and deliver high-quality patient care.`,
