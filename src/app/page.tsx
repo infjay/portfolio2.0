@@ -1,6 +1,6 @@
 
 import Head from "next/head";
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import About from "../../components/About";
@@ -9,7 +9,7 @@ import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
 import Contact from "../../components/Contact";
 import Link from "next/link";
-
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +19,6 @@ const Home: NextPage = () => {
         <title>Jawid's Portfolio</title>
       </Head>
       <Header />
- 
       <section id="hero" className="snap-start">
         <Hero />
       </section>
@@ -47,7 +46,7 @@ const Home: NextPage = () => {
       <Link href="#hero">
       <footer className="sticky bottom-5 w-full cursor-pointer">
         <div className="flex justify-center items-center">
-          <img src="https://i.seadn.io/gcs/files/ab8500681ef3049af50ffafcc4954b2b.png?auto=format&dpr=1&w=1920" className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0"/>
+          <Image alt="abbas agha" src="https://i.seadn.io/gcs/files/ab8500681ef3049af50ffafcc4954b2b.png?auto=format&dpr=1&w=1920" className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0"/>
         </div>
       </footer>
       </Link>

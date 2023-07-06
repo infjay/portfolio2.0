@@ -7,6 +7,7 @@ import mock3 from "../assets/3.png";
 import mock4 from "../assets/4.png";
 import stack from "../assets/skills/index"
 import mock5 from "../assets/5.png";
+import Image from 'next/image'
 
 type Props = {
 
@@ -111,6 +112,7 @@ const Projects = (props: Props) => {
                 justify-center p-20 md:pb-0 h-screen"
           >
             <motion.img
+              key={i}
               initial={{ y: -300, opacity: 0 }}
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -143,7 +145,7 @@ const Projects = (props: Props) => {
                 {project.stack.map((stck, idx) => {
               
               return (
-                <img
+                <Image
                   key={idx}
                   className="h-10 w-10 rounded-full"
                   src={stck.src}

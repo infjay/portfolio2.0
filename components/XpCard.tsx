@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
+import Image from 'next/image'
 type Props = {}
 
 const XpCard = (props: Props) => {
@@ -25,10 +26,10 @@ const XpCard = (props: Props) => {
             <h4 className='text-4xl font-light'>CEO of JayFarm</h4>
             <p className='font-bold text-2xl mt-1'>Jayfarm</p>
             <div className='flex space-x-2 my-2'>
-                <img className='h-10 w-10 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAQZpkL_FIBpWC3FuIoEJs1DtZE3ERZ9yJWng-CnaSavFRrsI38gmz5Yr2c3TxdiyaXg&usqp=CAU" alt="" />
-                <img className='h-10 w-10 rounded-full' src="https://s3-symbol-logo.tradingview.com/roche--600.png" alt="" />
-                <img className='h-10 w-10 rounded-full' src="https://s3-symbol-logo.tradingview.com/roche--600.png" alt="" />
-                <img className='h-10 w-10 rounded-full' src="https://s3-symbol-logo.tradingview.com/roche--600.png" alt="" />
+                <Image className='h-10 w-10 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAQZpkL_FIBpWC3FuIoEJs1DtZE3ERZ9yJWng-CnaSavFRrsI38gmz5Yr2c3TxdiyaXg&usqp=CAU" alt="" />
+                <Image className='h-10 w-10 rounded-full' src="https://s3-symbol-logo.tradingview.com/roche--600.png" alt="" />
+                <Image className='h-10 w-10 rounded-full' src="https://s3-symbol-logo.tradingview.com/roche--600.png" alt="" />
+                <Image className='h-10 w-10 rounded-full' src="https://s3-symbol-logo.tradingview.com/roche--600.png" alt="" />
                 {/* Tech Stack */}
             </div>
             <p className='uppercase py-5 text-gray-300'>started -- ended</p>
