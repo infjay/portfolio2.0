@@ -7,12 +7,12 @@ const skillset = [
   {
     name: "JS",
     image: logos.js,
-    percentage: "70%",
+    percentage: "80%",
   },
   {
     name: "React",
     image: logos.react,
-    percentage: "75%",
+    percentage: "85%",
   },
   {
     name: "HTML",
@@ -22,7 +22,7 @@ const skillset = [
   {
     name: "TS",
     image: logos.ts,
-    percentage: "50%",
+    percentage: "60%",
   },
   {
     name: "CSS",
@@ -32,12 +32,12 @@ const skillset = [
   {
     name: "Node.js",
     image: logos.node,
-    percentage: "45%",
+    percentage: "55%",
   },
   {
     name: "Next",
     image: logos.next,
-    percentage: "50%",
+    percentage: "70%",
   },
   {
     name: "NGINX",
