@@ -4,6 +4,8 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BgCircles from './BgCircles'
 import Link from 'next/link'
 import Image from 'next/image'
+import profil from "../assets/profil.png";
+
 type Props = {}
 
 function Hero({}: Props) {
@@ -21,9 +23,9 @@ function Hero({}: Props) {
     <div className='h-screen flex flex-col space-y-8 items-center text-center justify-center overflow-hidden'>
       <BgCircles />
       <Image
-        src='https://i.seadn.io/gcs/files/ab8500681ef3049af50ffafcc4954b2b.png?auto=format&dpr=1&w=1920'
+        src={profil.src}
         alt="thug"
-        className='relative rounded-full h-36 w-32 mx-auto object-cover'
+        className='relative rounded-full h-36 w-36 mx-auto object-cover'
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 max-sm:text-[10px] tracking-[15px]'>Software Engineer</h2>

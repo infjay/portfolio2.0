@@ -106,13 +106,14 @@ const Projects = (props: Props) => {
         className="relative w-full flex overflow-x-scroll overflow-y-hidden
         snap-x snap-mandatory z-20 scrollbar-thin  scrollbar-track-gray-400/20 scrollbar-thumb-orange-400"
       >
-        {projects.map((project, i) => (
+        {projects.map((project) => (
           <div
             className="w-screen flex-shrink-0 max-sm:p-5 snap-center flex flex-col space-y-5 items-center
                 justify-center p-20 md:pb-0 h-screen"
+                key={project.id}
           >
             <motion.img
-              key={i}
+              key={project.id}
               initial={{ y: -300, opacity: 0 }}
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -124,12 +125,13 @@ const Projects = (props: Props) => {
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="md:text-4xl max-sm:text-xs text-center font-semibold">
                 <span className="underline decoration-[#F7AB0A]/50">
-                  Case Study {i + 1} of {projects.length} :
+                  Case Study {project.id + 1} of {projects.length} :
                 </span>{" "}
                 <a
                   href={project.url}
                   className="hover:text-gray-500 transition duration-300"
                   target="_blank"
+                  key={project.id}
                 >
                   {project.name}
                 </a>
