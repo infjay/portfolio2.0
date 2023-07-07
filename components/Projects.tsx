@@ -54,7 +54,7 @@ const Projects = (props: Props) => {
       name: "Sumex",
       summary:
         "Sumex is an AI-powered article summarizer that aims to revolutionize the way we consume and process information. With its advanced natural language processing algorithms, Sumex can analyze and condense lengthy articles into concise and coherent summaries, saving users valuable time and effort.",
-      image: mock2,
+      image: mock3,
       url: "https://infjay.github.io/Sumex/",
       stack:[
         stack.react,
@@ -68,7 +68,7 @@ const Projects = (props: Props) => {
       name: "GPT-3",
       summary:
         "The GPT-3 project is a frontend design showcase that highlights the skills and creativity in designing and implementing user interfaces.The project's emphasis is on presenting visually appealing and user-friendly interfaces. It demonstrates the developer's proficiency in frontend technologies, such as HTML, CSS, JavaScript and React.js for enhanced functionality and styling.",
-      image: mock3,
+      image: mock4,
       url: "https://infjay.github.io/gp3-AI/",
       stack:[
         stack.react,
@@ -82,7 +82,7 @@ const Projects = (props: Props) => {
       name: "Hospify",
       summary: `The Hospify project has successfully addressed the apointment and patient management challenges faced by healthcare professionals by delivering a secure and compliant patient management platform.
             Through its user-friendly interface, robust security measures, and seamless integration with existing systems, Hospify has improved healthcare patient management, enabling healthcare professionals to collaborate effectively and deliver high-quality patient care.`,
-      image: mock4,
+      image: mock5,
       stack:[
         stack.react,
         stack.js,
@@ -125,7 +125,7 @@ const Projects = (props: Props) => {
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="md:text-4xl max-sm:text-xs text-center font-semibold">
                 <span className="underline decoration-[#F7AB0A]/50">
-                  Case Study {project.id + 1} of {projects.length} :
+                  Case Study {project.id} of {projects.length} :
                 </span>{" "}
                 <a
                   href={project.url}
