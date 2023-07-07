@@ -7,7 +7,7 @@ type Props = {
   percentage: string;
 };
 
-const Skill = ({ name, image, percentage }: Props) => {
+const Skill = ({ image, percentage }: Props) => {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
