@@ -141,7 +141,7 @@ const Projects = (props: Props) => {
                 {project.summary}
               </p>
               <div className="flex space-x-2 justify-center mt-2">
-                <p className="flex justify-center text-center mt-2">
+                <p className="flex justify-center text-center mt-2 max-sm:hidden">
                   Tech Stack :
                 </p>
                 {project.stack.map((stck, idx) => {

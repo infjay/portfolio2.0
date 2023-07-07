@@ -118,10 +118,10 @@ const Skills = (props: Props) => {
       <h3 className="absolute top-24 max-sm:text-sm uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
-      <h3 className="absolute top-36 uppercase max-sm:text-xs tracking-[3px] text-gray-500 text-sm">
+      <h3 className="absolute top-36 uppercase max-sm:text-xs mb-28 tracking-[3px] text-gray-500 text-sm">
         Hover over a skill for current profiecieny
       </h3>
-      <div className="grid grid-cols-4 gap-5 pt-14">
+      <div className="grid grid-cols-4 gap-5 pt-20 md:pt-24 lg:pt-40 max-sm:gap-2">
         {skillset.map((skill, idx) => (
           <Skill
             key={idx}
