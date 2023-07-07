@@ -46,7 +46,7 @@ const Home: NextPage = () => {
       <Link href="#hero">
       <footer className="sticky bottom-5 w-full cursor-pointer">
         <div className="flex justify-center items-center">
-          <Image alt="abbas agha" src={profile} className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0"/>
+          <Image alt="profile" src={profile} className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0"/>
         </div>
       </footer>
       </Link>

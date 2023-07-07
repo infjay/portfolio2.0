@@ -24,8 +24,8 @@ function Hero({}: Props) {
       <BgCircles />
       <Image
         src={profil.src}
-        width={400}
-        height={400}
+        width={200}
+        height={200}
         alt="thug"
         className='relative rounded-full h-36 w-36 mx-auto object-cover'
       />
