@@ -20,6 +20,8 @@ const Skill = ({ name, image, percentage }: Props) => {
         src={image.src}
         className="rounded-full border border-gray-500 object-cover w-24 max-sm:w-16 max-sm:h-16 md:w-28 md:h-28
         h-24  filter group-hover:grayscale transition duration-300 ease-in-out"
+        alt="skill"
+        width={200}
       />
       <div
         className="absolute opacity-0 group-hover:opacity-80 transition duration-300
