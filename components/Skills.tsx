@@ -103,15 +103,18 @@ const skillset = [
 type Props = {};
 
 const Skills = (props: Props) => {
+
+
+
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-      className="h-screen flex relative flex-col text-center md:text-left
+    initial={{ opacity: 0  }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 1.5 }}
+    className="h-screen flex relative flex-col text-center md:text-left
      xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0
-     mx-auto items-center"
-    >
+     mx-auto items-center overflow-x-hidden"
+  >
       <h3 className="absolute top-24 max-sm:text-sm uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
