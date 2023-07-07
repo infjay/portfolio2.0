@@ -152,6 +152,8 @@ const Projects = (props: Props) => {
                   className="h-10 w-10 rounded-full"
                   src={stck.src}
                   alt=""
+                  width={100}
+                  height={100}
                 />
               );
             })}

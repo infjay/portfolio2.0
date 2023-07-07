@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-
+import profil from "../assets/profil.png"
 //
 type Props = {};
 
@@ -21,7 +21,7 @@ const About = (props: Props) => {
         transition={{
           duration: 1.2,
         }}
-        src="https://i.seadn.io/gcs/files/ab8500681ef3049af50ffafcc4954b2b.png?auto=format&dpr=1&w=1920"
+        src={profil.src}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover max-sm:w-32 max-sm:h-32 max-sm:mt-16 md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]"
       />
       <div className="space-y-10 max-sm:space-y-2 px-0 md:px-10  max-sm:pt-6">
