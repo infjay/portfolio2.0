@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import mock1 from "../assets/1.png";
-import mock2 from "../assets/2.png";
-import mock3 from "../assets/3.png";
-import mock4 from "../assets/4.png";
+import mock1 from "../assets/1.webp";
+import mock2 from "../assets/2.webp";
+import mock3 from "../assets/3.webp";
+import mock4 from "../assets/4.webp";
 import stack from "../assets/skills/index"
-import mock5 from "../assets/5.png";
+import mock5 from "../assets/5.webp";
 import Image from 'next/image'
 
 type Props = {

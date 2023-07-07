@@ -4,7 +4,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BgCircles from './BgCircles'
 import Link from 'next/link'
 import Image from 'next/image'
-import profil from "../assets/profil.png";
+import profil from "../assets/profil.webp";
 
 type Props = {}
 

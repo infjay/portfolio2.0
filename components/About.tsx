@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import profil from "../assets/profil.png"
+import profil from "../assets/profil.webp"
 //
 type Props = {};
 

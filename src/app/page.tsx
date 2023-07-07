@@ -10,7 +10,7 @@ import Projects from "../../components/Projects";
 import Contact from "../../components/Contact";
 import Link from "next/link";
 import Image from 'next/image'
-import profile from "../../assets/profil.png"
+import profile from "../../assets/profil.webp"
 const Home: NextPage = () => {
   return (
     <div className=" text-white h-screen snap-y snap-mandatory
